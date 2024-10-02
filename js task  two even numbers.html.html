@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+function addIfEven(n1, n2) {
+    if (n1 % 2 === 0 && n2 % 2 === 0) {
+        return n1 + n2; 
+    } else {
+        return "not valid"; 
+    }
+}
+
+var n1 = 4;
+var n2 = 6;
+var result1 = addIfEven(n1, n2);
+console.log(`n1=${n1}, n2=${n2} // Output: ${result1}`); 
+
+n1 = 5;
+n2 = 4;
+var result2 = addIfEven(n1, n2);
+console.log(`n1=${n1}, n2=${n2} // Output: ${result2}`); 
+
+    </script>
+</body>
+</html>
